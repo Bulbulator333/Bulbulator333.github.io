@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #616161;
+    background-image: url(images/japanback1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+}
+
+header, .banner, header a {
+    background-color: var(--fon);
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'anonymous pro';
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    font-family: 'comfortaa';
+    padding-left: 3%;
+}
+
+
+.line{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+#down-line {
+    padding: 2%;
+}
+
+span > img {
+    width: 95vw;
+    height: 0.4vh
+}
+
+.home {
+    display: flex;
+    color: white;
+    font-size: 3.2rem;
+    justify-content: space-between;
+    height: 80vh;
+    font-family: 'anonymous pro';
+}
+.home > div{
+    padding: 10vw;
+}
+.home p {
+    border: 3px white solid;
+    padding: 3%;
+    display: inline-block;
+}
+
+.projects {
+    background-color: #d9d9d9;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'comfortaa';
+    color: white;
+    font-size: 2.5em;
+}
+
+.project { 
+    background-color: #6c6c6c;
+    height: 50vh;
+    width: 20vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#winter {
+    background-image: url(images/japan-background-winter-art_23-2151546111.jpg);
+    color: black;
+}
+#spring {
+    background-image: url(images/beautiful-mountains-landscape_23-2150787780.jpg);
+}
+#summer {
+    background-image: url(images/marine-landscape-cartoon-style-with-beach-chair_23-2151120357.jpg);
+    color: black
+}
+#autumn {
+    background-image: url(images/autumn-forest188544-15650.jpg);
+}
+
+
+li:hover {
+    transform: scale(1.5);
+}
+
